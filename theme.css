@@ -1,0 +1,121 @@
+div.topbar{
+  position:relative;
+  padding-left:20px;
+  padding-right:20px;
+  z-index:936px;
+  align-items:center;
+  justify-content:flex-end;
+  -webkit-user-select: none;
+  float:right;
+}
+
+div.animation{
+  padding-top:120px;
+  height:200px;
+}
+
+a#follow{
+  color:#1a0dab;
+}
+
+#searchInput{
+  max-width:680px;
+  min-width:500px;
+  height:38px;
+}
+
+#submitbuttons{
+  margin:30px;
+}
+
+#googleSearch:hover, #lucky:hover{
+  background-color:#f8f8f8;
+  border:1px solid #c6c6c6;
+  color:black;
+}
+
+
+#googleSearch, #lucky{
+  display:inline;
+  border-radius: 2px;
+  background-color:#f1f1f1;
+  color:#757575;
+  border:1px solid #f2f2f2;
+  font-size:13px;
+  font-weight:bold;
+  margin:11px 4px;
+  min-width:54px;
+  padding:0 21px;
+  padding-top:5px;
+  padding-bottom:5px;
+  text-align: center;
+  line-height: 20px
+}
+
+
+a.gmail{
+  color:#222;
+}
+
+a.images{
+  padding:15px;
+  color:#222;
+}
+
+a.signin{
+  display:inline-block;
+  border:6px solid #4285f4;
+  font-weight:bold;
+  color:#fff;
+  outline:none;
+  background:#4285f4;
+  background: -webkit-linear-gradient(top, #4285f4, #4683ea);
+  line-height: 20px;
+  padding:0 10px;
+  border-radius: 2px;
+}
+
+a.fllink, a.frlink{
+  color:#666;
+  font-size: small;
+}
+
+.footer{
+  border-top:1px solid #e4e4e4;
+  background-color: #f2f2f2;
+  line-height: 20px;
+  position:absolute;
+  bottom:0;
+  left:0;
+  width:100%;
+  padding:1rem;
+}
+#footRight{
+  float:right;
+  margin-right:60px;
+}
+#footLeft{
+  float:left;
+  margin-left:0px;
+}
+.frlink, .fllink{
+  padding-left: 27px
+}
+
+a{
+  color:;
+  text-decoration:none;
+}
+
+a.signin:hover{
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration:underline;
+}
+
+
+body, a, p{
+  font-family: arial, sans-serif;
+}
